@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/main.xst" -ofn "/home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constr.ucf -p xc3s1200e-fg320-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf constr.ucf 

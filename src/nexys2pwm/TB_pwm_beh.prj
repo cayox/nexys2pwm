@@ -1,0 +1,2 @@
+vhdl work "pwmDriver/pwmDriver.vhd"
+vhdl work "../../test/pwm/TB_pwm.vhd"

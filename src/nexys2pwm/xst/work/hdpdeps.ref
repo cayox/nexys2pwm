@@ -1,0 +1,37 @@
+V3 19
+FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/buttonDebouncing/buttonDebouncing.vhd 2020/07/15.21:49:01 P.20131013
+EN work/buttonDebouncing 1594850506 \
+      FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/buttonDebouncing/buttonDebouncing.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/buttonDebouncing/Implementation 1594850507 \
+      FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/buttonDebouncing/buttonDebouncing.vhd \
+      EN work/buttonDebouncing 1594850506
+FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/buttonEdge/buttonEdge.vhd 2020/07/15.21:52:21 P.20131013
+EN work/buttonEdge 1594850508 \
+      FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/buttonEdge/buttonEdge.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/buttonEdge/Behavioral 1594850509 \
+      FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/buttonEdge/buttonEdge.vhd \
+      EN work/buttonEdge 1594850508 CP buttonDebouncing
+FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/displayDriver/displayDriver.vhd 2020/07/15.21:50:56 P.20131013
+EN work/displayDriver 1594850510 \
+      FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/displayDriver/displayDriver.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/displayDriver/Behavioral 1594850511 \
+      FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/displayDriver/displayDriver.vhd \
+      EN work/displayDriver 1594850510
+FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/main.vhd 2020/07/15.21:55:25 P.20131013
+EN work/main 1594850514 \
+      FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/main.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/main/Behavioral 1594850515 \
+      FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/main.vhd EN work/main 1594850514 \
+      CP buttonEdge CP displayDriver CP pwmDriver
+FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/pwmDriver/pwmDriver.vhd 2020/07/15.23:11:49 P.20131013
+EN work/pwmDriver 1594850512 \
+      FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/pwmDriver/pwmDriver.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/pwmDriver/Behavioral 1594850513 \
+      FL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/pwmDriver/pwmDriver.vhd \
+      EN work/pwmDriver 1594850512

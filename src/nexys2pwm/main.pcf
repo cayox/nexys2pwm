@@ -1,0 +1,48 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Jul 16 00:01:58 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "switches<0>" LOCATE = SITE "G18" LEVEL 1;
+COMP "switches<1>" LOCATE = SITE "H18" LEVEL 1;
+COMP "switches<2>" LOCATE = SITE "K18" LEVEL 1;
+COMP "switches<3>" LOCATE = SITE "K17" LEVEL 1;
+COMP "switches<4>" LOCATE = SITE "L14" LEVEL 1;
+COMP "switches<5>" LOCATE = SITE "L13" LEVEL 1;
+COMP "switches<6>" LOCATE = SITE "N17" LEVEL 1;
+COMP "switches<7>" LOCATE = SITE "R17" LEVEL 1;
+COMP "leds<0>" LOCATE = SITE "J14" LEVEL 1;
+COMP "leds<1>" LOCATE = SITE "J15" LEVEL 1;
+COMP "leds<2>" LOCATE = SITE "K15" LEVEL 1;
+COMP "leds<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "leds<4>" LOCATE = SITE "E16" LEVEL 1;
+COMP "leds<5>" LOCATE = SITE "P16" LEVEL 1;
+COMP "leds<6>" LOCATE = SITE "E4" LEVEL 1;
+COMP "leds<7>" LOCATE = SITE "P4" LEVEL 1;
+COMP "periphery<0>" LOCATE = SITE "L15" LEVEL 1;
+COMP "periphery<1>" LOCATE = SITE "K12" LEVEL 1;
+COMP "periphery<2>" LOCATE = SITE "L17" LEVEL 1;
+COMP "periphery<3>" LOCATE = SITE "M15" LEVEL 1;
+COMP "periphery<4>" LOCATE = SITE "K13" LEVEL 1;
+COMP "periphery<5>" LOCATE = SITE "L16" LEVEL 1;
+COMP "periphery<6>" LOCATE = SITE "M14" LEVEL 1;
+COMP "periphery<7>" LOCATE = SITE "M16" LEVEL 1;
+COMP "number<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "number<1>" LOCATE = SITE "F18" LEVEL 1;
+COMP "number<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "number<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "number<4>" LOCATE = SITE "G14" LEVEL 1;
+COMP "number<5>" LOCATE = SITE "J17" LEVEL 1;
+COMP "number<6>" LOCATE = SITE "H14" LEVEL 1;
+COMP "buttons<0>" LOCATE = SITE "B18" LEVEL 1;
+COMP "buttons<1>" LOCATE = SITE "D18" LEVEL 1;
+COMP "buttons<2>" LOCATE = SITE "E18" LEVEL 1;
+COMP "buttons<3>" LOCATE = SITE "H13" LEVEL 1;
+COMP "display_placing<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "display_placing<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "display_placing<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "display_placing<3>" LOCATE = SITE "F15" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

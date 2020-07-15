@@ -1,0 +1,10 @@
+AR main behavioral /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/main.vhd sub00/vhpl09 1594850515
+EN buttonedge NULL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/buttonEdge/buttonEdge.vhd sub00/vhpl02 1594850508
+AR pwmdriver behavioral /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/pwmDriver/pwmDriver.vhd sub00/vhpl07 1594850513
+EN displaydriver NULL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/displayDriver/displayDriver.vhd sub00/vhpl04 1594850510
+AR displaydriver behavioral /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/displayDriver/displayDriver.vhd sub00/vhpl05 1594850511
+EN main NULL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/main.vhd sub00/vhpl08 1594850514
+EN pwmdriver NULL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/pwmDriver/pwmDriver.vhd sub00/vhpl06 1594850512
+AR buttonedge behavioral /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/buttonEdge/buttonEdge.vhd sub00/vhpl03 1594850509
+AR buttondebouncing implementation /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/buttonDebouncing/buttonDebouncing.vhd sub00/vhpl01 1594850507
+EN buttondebouncing NULL /home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/buttonDebouncing/buttonDebouncing.vhd sub00/vhpl00 1594850506

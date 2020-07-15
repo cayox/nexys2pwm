@@ -1,0 +1,46 @@
+
+net clk loc = B8;
+net buttons(0) loc = B18;
+net buttons(1) loc = D18;
+net buttons(2) loc = E18;
+net buttons(3) loc = H13;
+
+net switches(0) loc = G18;
+net switches(1) loc = H18;
+net switches(2) loc = K18;
+net switches(3) loc = K17;
+net switches(4) loc = L14;
+net switches(5) loc = L13;
+net switches(6) loc = N17;
+net switches(7) loc = R17;
+
+net number(0) loc = L18;
+net number(1) loc = F18;
+net number(2) loc = D17;
+net number(3) loc = D16;
+net number(4) loc = G14;
+net number(5) loc = J17;
+net number(6) loc = H14;
+
+net display_placing(0) loc = F17;
+net display_placing(1) loc = H17;
+net display_placing(2) loc = C18;
+net display_placing(3) loc = F15;
+
+net leds(0) loc = J14;
+net leds(1) loc = J15;
+net leds(2) loc = K15;
+net leds(3) loc = K14;
+net leds(4) loc = E16;
+net leds(5) loc = P16;
+net leds(6) loc = E4;
+net leds(7) loc = P4;
+
+net periphery(0) loc = L15;
+net periphery(1) loc = K12;
+net periphery(2) loc = L17;
+net periphery(3) loc = M15;
+net periphery(4) loc = K13;
+net periphery(5) loc = L16;
+net periphery(6) loc = M14;
+net periphery(7) loc = M16;

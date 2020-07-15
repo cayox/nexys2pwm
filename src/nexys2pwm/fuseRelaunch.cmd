@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/TB_pwm_isim_beh.exe" -prj "/home/xps/Documents/Github/nexys2pwm/src/nexys2pwm/TB_pwm_beh.prj" "work.TB_pwm" 

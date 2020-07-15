@@ -1,0 +1,5 @@
+vhdl work "buttonDebouncing/buttonDebouncing.vhd"
+vhdl work "pwmDriver/pwmDriver.vhd"
+vhdl work "displayDriver/displayDriver.vhd"
+vhdl work "buttonEdge/buttonEdge.vhd"
+vhdl work "main.vhd"

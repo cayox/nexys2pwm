@@ -29,11 +29,11 @@ The PWM-Driver can be implemented as a component. It has the following entity:
     end pwmDriver;
 ```
 
-* g_FREQUENCY : A generic to set the frequency. Must be 2 in this case to have a 100kHz Frequenc
+* `g_FREQUENCY` : A generic to set the frequency. Must be 2 in this case to have a 100kHz Frequenc
     with 8 Bit Resolution on a 50MHz clock
-* g_RESOLUTION : The resolution of the PWM-Signal
-* clk : the clock input
-* value : The value of which a PWM Signal should be created
-* pwm_out : the output signal
+* `g_RESOLUTION` : The resolution of the PWM-Signal
+* `clk` : the clock input
+* `value` : The value of which a PWM Signal should be created
+* `pwm_out` : the output signal
  
 
